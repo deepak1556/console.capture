@@ -14,7 +14,8 @@
 	this.captureFrame = null;
 	this.scale = 1;
 	this.gif = new GIF({
-	    workers: 4
+	    workers: 4,
+	    workerScript: 'lib/gif.worker.js'
 	});
     };
 
